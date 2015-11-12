@@ -9,7 +9,7 @@
 #import "TWSReleaseNotesDownloadOperation.h"
 #import <UIKit/UIKit.h>
 
-static NSString *const kTWSReleaseNotesDownloadOperationSearchURL = @"http://itunes.apple.com/lookup";
+static NSString *const kTWSReleaseNotesDownloadOperationSearchURL = @"https://itunes.apple.com/lookup";
 static NSString *const kTWSReleaseNotesDownloadOperationResultsArrayKey = @"results";
 static NSString *const kTWSReleaseNotesDownloadOperationReleaseNotesKey = @"releaseNotes";
 static NSString *const kTWSReleaseNotesDownloadOperationErrorDomain = @"com.tapwings.open.error.releaseNotes";
